@@ -8,4 +8,6 @@ end
 print "What is your birth year? "
 birth_year = gets.to_i
 
-puts current_age_for_birth_year(birth_year)
+age = current_age_for_birth_year(birth_year)
+
+puts "Your age is #{ age }"
