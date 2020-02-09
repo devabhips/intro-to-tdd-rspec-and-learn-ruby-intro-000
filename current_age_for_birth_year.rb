@@ -5,7 +5,7 @@ def current_age_for_birth_year(birth_year)
 end
 
 
-puts "What is your birth year?"
+print "What is your birth year? "
 birth_year = gets.to_i
 
 puts current_age_for_birth_year(birth_year)
